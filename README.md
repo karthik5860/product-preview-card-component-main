@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-(Screenshot.png)
+(https://github.com/karthik5860/product-preview-card-component-main/blob/updated/Screenshot%20.png)
 
 ### Links
 
