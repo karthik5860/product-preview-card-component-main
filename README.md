@@ -28,12 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-(./Screenshot.png)
+(Screenshot.png)
 
 ### Links
 
 - Solution URL: [https://github.com/karthik5860/product-preview-card-component-main/tree/updated]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://karthik5860.github.io/product-preview-card-component-main/]
 
 ## My process
 I have built first version for this project using flex and it is not responsive later I have taken ideas and knowledge from the feedback given by members in frontend mentor and built this responsive website using grid
