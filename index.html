@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta charset="UTF-8">  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Fraunces' rel='stylesheet'>
 
@@ -11,144 +12,31 @@
   <title>Frontend Mentor | Product preview card component</title>
 
 
-  <style>
-    body{
-      background: hsl(30, 38%, 92%);
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-    }
-
-    .main{
-      background: hsl(0, 0%, 100%);
-      display: grid;
-      grid-template-columns: 50% 50%;
-      height: 450px;
-      width: 600px;
-      max-width: 990px;
-      border-radius: 10px;
-      overflow: hidden;
-    }
-    .desktop-product{
-      display: block;
-      max-width: 100%; 
-    }
-    .mobile-product{
-      display: none;
-    }
-    .matter{
-      padding: 20px;
-      display: inline-block;
-    }
-    .perfume{
-      font-family: 'Montserrat';
-      padding: 5px;
-      font-size: 14px;
-      font-weight: 500;
-      color: hsl(228, 12%, 48%);
-    }
-    .Name{
-      font-family: 'Fraunces';
-      padding: 5px;
-      font-size: 34px;
-      font-weight: 700;
-      color: hsl(212, 21%, 14%);
-    }
-    .dis{
-      font-family: 'Montserrat';
-      padding: 5px;
-      font-size: 14px;
-      font-weight: 500;
-      color: hsl(228, 12%, 48%);
-    }
-    .prices{
-      display: flex;
-      width: 200px;
-      justify-content: space-between;
-      padding: 5px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-    }
-    .price{
-      font-family: 'Fraunces';
-      font-size: 30px;
-      font-weight: 700;
-      color: hsl(158, 36%, 37%);
-    }
-    .oldprice{
-      font-family: 'Montserrat';
-      font-size: 20px;
-      font-weight: 500;
-      padding-top: 10px;
-      text-decoration: line-through;
-      color: hsl(228, 12%, 48%);
-    }
-    .button{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 50px;
-      width: 250px;
-      background: hsl(158, 36%, 37%);
-      margin: auto;
-      border-radius: 10px;
-    }
-    .button:hover{
-      background: black;
-    }
-    .click{
-      color: white;
-      font-weight: 700;
-    }
-    @media screen and (max-width: 600px){
-      .main{
-              grid-template-columns: 100%;
-              height: 95%;
-      }
-      .desktop-product{
-             display: none;
-      }
-      .mobile-product{
-            display: initial;
-            max-width: 100%;
-      }
-      .matter{
-            padding: 20px;
-            margin-top: -20px;
-      }
-     
-
-      .button{
-      height: 70px;
-      width: 100%;
-      }
-    }
-  </style>
 </head>
 <body>
 
   <div class = "main">
-    <img src="images/image-product-desktop.jpg" alt="desktop Product" class="desktop-product">
-    <img src="images/image-product-mobile.jpg" alt="Mobile Product" class="mobile-product">
-  <div class="matter">
-    <div class="perfume">Perfume</div>
+    <picture>
+      <source srcset="images/image-product-mobile.jpg" media="(max-width:500px)">
+      <img src="images/image-product-desktop.jpg" alt="desktop Product" class="desktop-product" style="max-width: 100%;">
+    </picture>
+    <div class="matter">
+      <div class="perfume">Perfume</div>
 
-  <div class="Name">Gabrielle Essence Eau De Parfum</div>
+      <div class="Name">Gabrielle Essence Eau De Parfum</div>
 
-  <div class="dis">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.</div>
+      <div class="dis">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+      Perfumer-Creator for the House of CHANEL.</div>
 
-  <div class="prices">
-    <div class="price">$149.99</div>
-    <div class="oldprice">$169.99</div>
+      <div class="prices">
+      <div class="price">$149.99</div>
+      <div class="oldprice">$169.99</div>
+    </div>
+    <a class="button" href="#" >
+        <img src="images/icon-cart.svg" alt="icon" style="padding-right: 15px;">
+        <div class="click">Add to Cart</div>
+    </a>
   </div>
-  <a class="button" href="#" >
-      <img src="images/icon-cart.svg" alt="icon" style="padding-right: 15px;">
-      <div class="click">Add to Cart</div>
-  </a>
-</div>
 </div>
   
 
