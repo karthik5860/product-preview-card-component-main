@@ -28,13 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-(https://github.com/karthik5860/product-preview-card-component-main/blob/updated/Screenshot%20.png)
+(./Screenshot.png)
 
 ### Links
 
-- Solution URL: [https://github.com/karthik5860/product-preview-card-component-main/tree/updated]
+- Solution URL: [https://github.com/karthik5860/product-preview-card-component-main/tree/Final-version]
 - Live Site URL: [https://karthik5860.github.io/product-preview-card-component-main/]
-
 ## My process
 I have built first version for this project using flex and it is not responsive later I have taken ideas and knowledge from the feedback given by members in frontend mentor and built this responsive website using grid
 ### Built with
@@ -45,13 +44,12 @@ I have built first version for this project using flex and it is not responsive 
 - CSS Grid
 ### What I learned
 
-In this project I have learnt about grid as I am not familiar with it before this project and majority of the time I have used flexbox
+In this project I have learnt about grid as I am not familiar with it before this project and majority of the time I have used flexbox and also learnet about picture tag.
 
 ## Author
 
 
 - Frontend Mentor - [https://www.frontendmentor.io/profile/karthik5860]
-
 
 
 ## Acknowledgments
